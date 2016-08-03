@@ -13,6 +13,7 @@
 		F68E52A41D50BF7B002CCA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68E52A21D50BF7B002CCA79 /* Main.storyboard */; };
 		F68E52A61D50BF7B002CCA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68E52A51D50BF7B002CCA79 /* Assets.xcassets */; };
 		F68E52A91D50BF7B002CCA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68E52A71D50BF7B002CCA79 /* LaunchScreen.storyboard */; };
+		F68E52B21D50BFC4002CCA79 /* NSObject+NewObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F68E52B11D50BFC4002CCA79 /* NSObject+NewObjectClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F68E52A51D50BF7B002CCA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68E52A81D50BF7B002CCA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68E52AA1D50BF7B002CCA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68E52B01D50BFC4002CCA79 /* NSObject+NewObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NewObjectClass.h"; sourceTree = "<group>"; };
+		F68E52B11D50BFC4002CCA79 /* NSObject+NewObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NewObjectClass.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F68E529D1D50BF7B002CCA79 /* AppDelegate.m */,
 				F68E529F1D50BF7B002CCA79 /* ViewController.h */,
 				F68E52A01D50BF7B002CCA79 /* ViewController.m */,
+				F68E52B01D50BFC4002CCA79 /* NSObject+NewObjectClass.h */,
+				F68E52B11D50BFC4002CCA79 /* NSObject+NewObjectClass.m */,
 				F68E52A21D50BF7B002CCA79 /* Main.storyboard */,
 				F68E52A51D50BF7B002CCA79 /* Assets.xcassets */,
 				F68E52A71D50BF7B002CCA79 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				F68E52A11D50BF7B002CCA79 /* ViewController.m in Sources */,
 				F68E529E1D50BF7B002CCA79 /* AppDelegate.m in Sources */,
+				F68E52B21D50BFC4002CCA79 /* NSObject+NewObjectClass.m in Sources */,
 				F68E529B1D50BF7B002CCA79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,6 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString * name1 = @"xx";
+    
+    name1.name  = @"0";
+    name1.datasArr = @[@"1",@"2"];
+    name1.lianJingLi = @"123";
+    NSLog(@"---%@%@---%@",name1.datasArr,name1.name,name1.lianJingLi);
+    
+    NSArray * arr= @[];
+    
+    arr.name = @"数组";
+    NSLog(@"----%@",arr.name);
+    
+    
+    UIAlertView *alertView= [[UIAlertView alloc]initWithTitle:nil message:@"测试" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
+    
+    
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
